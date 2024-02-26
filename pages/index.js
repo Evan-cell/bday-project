@@ -6,13 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="main">
-
-<div className="  max-w-md mx-auto  shadow-md rounded-md overflow-hidden mt-9 card z-10">
-  <div className="px-4 py-2">
-  <h3 className="font-semibold">0 birthday today</h3>
-  <List />
-  <button></button>
+    <main>
+<div className="max-w-md mx-auto bg-white shadow-md rounded-md overflow-hidden mt-10">
+  <div className="px-4 py-2 flex flex-col items-center">
+    <h3 className="font-semibold text-lg">Card Title</h3>
+    <p className="text-gray-700">Card content goes here.</p>
   </div>
 </div>
 
